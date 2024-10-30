@@ -1,15 +1,15 @@
 import mongoose from "mongoose";
 
 const FeedbackSchema = new mongoose.Schema({
-  fName: {
+  name: {
     type: String,
     required: true,
   },
-  cName: {
+  Name: {
     type: String,
     required: true,
   },
-  cSkills: {
+  knowledgee: {
     type: String,
     required: true,
   },

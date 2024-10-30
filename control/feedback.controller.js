@@ -3,9 +3,9 @@ import { feedback } from "../models/feedback.model.js";
 export const feedback1 = async (req, res) => {
   try {
     await feedback.create({
-      fName: req.body.fName,
-      cName: req.body.cName,
-      cSkills: req.body.cSkills,
+      name: req.body.fName,
+      Name: req.body.cName,
+      knowledgee: req.body.cSkills,
     });
     
     res.json({
