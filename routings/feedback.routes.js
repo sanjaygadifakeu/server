@@ -2,7 +2,7 @@ import express from "express";
 import {
   feedback1,
   feedbackresult,
-} from "../Controllers/feedback.controller.js";
+} from "../control/feedback.controller.js";
 
 const router = express.Router();
 

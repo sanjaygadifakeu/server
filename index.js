@@ -1,10 +1,10 @@
 import express from "express";
 import "dotenv/config";
-import connectDB from "./Database/User.js";
+import connectDB from "./db/User.js";
 import cors from "cors";
-import authRouter from "./routes/auth.routes.js";
-import feedbackRouter from "./routes/feedback.routes.js";
-import courseRouter from "./routes/course.routes.js";
+import authRouter from "./routings/auth.routes.js";
+import feedbackRouter from "./routings/feedback.routes.js";
+import courseRouter from "./routings/course.routes.js";
 
 const app = express();
 
